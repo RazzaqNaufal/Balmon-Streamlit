@@ -49,6 +49,16 @@ def home():
 def map_page():
     st.title('Peta Interaktif')
 
+    # Add username input field
+    username = st.text_input("Enter your username")
+    if username:
+        st.session_state['username'] = username
+
+    # Check if username is set
+    if 'username' not in st.session_state:
+        st.warning("Please enter your username first!.")
+        return
+
     # Upload Excel file
     uploaded_file = st.file_uploader("Upload file Excel", type=["xlsx"])
 
