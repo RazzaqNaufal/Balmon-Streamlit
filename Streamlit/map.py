@@ -16,6 +16,9 @@ def load_data(file):
 
 
 def create_map(data):
+    # Remove rows with NaN values in SID_LAT or SID_LONG
+    data = data.dropna(subset=['SID_LAT', 'SID_LONG'])
+
     map_center = [data['SID_LAT'].mean(), data['SID_LONG'].mean()]
     my_map = folium.Map(location=map_center, zoom_start=6)
 
