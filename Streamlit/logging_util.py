@@ -1,30 +1,33 @@
-import os
 import pandas as pd
+import os
 from datetime import datetime
+import streamlit as st
+
+log_file = "upload_log.csv"
 
 
-def log_upload(uploaded_file, username='anonymous'):
-    log_file = "upload_log.csv"
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    file_details = {
-        "timestamp": timestamp,
-        "username": username,
-        "file_name": uploaded_file.name,
-        "file_size": uploaded_file.size
-    }
+def log_upload(file, username):
+    log_entry = pd.DataFrame([{
+        'Timestamp': datetime.now(),
+        'Username': username,
+        'Filename': file.name,
+        'Filesize (KB)': file.size / 1024
+    }])
 
-    # Check if the log file already exists
     if os.path.exists(log_file):
         log_df = pd.read_csv(log_file)
+        log_df = pd.concat([log_df, log_entry], ignore_index=True)
     else:
-        log_df = pd.DataFrame(
-            columns=["timestamp", "username", "file_name", "file_size"])
+        log_df = log_entry
 
-    # Convert the file_details dictionary to a DataFrame
-    new_log_entry = pd.DataFrame([file_details])
-
-    # Append the new log entry to the log DataFrame using pd.concat
-    log_df = pd.concat([log_df, new_log_entry], ignore_index=True)
-
-    # Save the updated log DataFrame to CSV
     log_df.to_csv(log_file, index=False)
+
+
+def view_logs():
+    st.title('Log Upload Files')
+
+    if os.path.exists(log_file):
+        log_df = pd.read_csv(log_file)
+        st.write(log_df)
+    else:
+        st.write("No logs found.")

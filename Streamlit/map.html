@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_86c27fe09f627cc650e88f0e8711a911 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_86c27fe09f627cc650e88f0e8711a911" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_86c27fe09f627cc650e88f0e8711a911 = L.map(
+                "map_86c27fe09f627cc650e88f0e8711a911",
+                {
+                    center: [5.452264999999999, 95.355952778],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_72b4222eb0115758bfeda55995fe0607 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_72b4222eb0115758bfeda55995fe0607.addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+            var marker_a9cf338b4c424fa30d86f76a787c0a1a = L.marker(
+                [5.52910278, 95.28281111],
+                {}
+            ).addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+        var popup_0b34211050fbb293734a02f88511748e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_48f014d05806bf10906758b08a55289e = $(`<div id="html_48f014d05806bf10906758b08a55289e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">LIMA7FM</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. BEUTARI V NO.K44, LAM HASAN, PEUKAN BADA, ACEH BESAR 23235, ACEH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_0b34211050fbb293734a02f88511748e.setContent(html_48f014d05806bf10906758b08a55289e);
+            
+        
+
+        marker_a9cf338b4c424fa30d86f76a787c0a1a.bindPopup(popup_0b34211050fbb293734a02f88511748e)
+        ;
+
+        
+    
+    
+            marker_a9cf338b4c424fa30d86f76a787c0a1a.bindTooltip(
+                `<div>
+                     LIMA7FM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fc84a78c9b8be8de5935bf625a95a61 = L.marker(
+                [5.52416667, 95.33888889],
+                {}
+            ).addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+        var popup_13ee687589c510e4cf08eacf059cd322 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a8b44cc47102ad562515dcb761cb090 = $(`<div id="html_6a8b44cc47102ad562515dcb761cb090" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">RadioQu 93,6 FM</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. IR. MOHD. THAHER NO.11, KEL. LAMCOT<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_13ee687589c510e4cf08eacf059cd322.setContent(html_6a8b44cc47102ad562515dcb761cb090);
+            
+        
+
+        marker_7fc84a78c9b8be8de5935bf625a95a61.bindPopup(popup_13ee687589c510e4cf08eacf059cd322)
+        ;
+
+        
+    
+    
+            marker_7fc84a78c9b8be8de5935bf625a95a61.bindTooltip(
+                `<div>
+                     RadioQu 93,6 FM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c1defa8015f5f683a0b63a8d3a8dc14 = L.marker(
+                [5.29630833, 95.6092],
+                {}
+            ).addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+        var popup_71142ed3bcac6a389b4cc38c421d3b3c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_23d555abe61c9682ce0d92f56c6d337d = $(`<div id="html_23d555abe61c9682ce0d92f56c6d337d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">LPP RRI JANTHO</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. PROF. A. MAJID IBRAHIM, JANTHO MAKMUR<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_71142ed3bcac6a389b4cc38c421d3b3c.setContent(html_23d555abe61c9682ce0d92f56c6d337d);
+            
+        
+
+        marker_8c1defa8015f5f683a0b63a8d3a8dc14.bindPopup(popup_71142ed3bcac6a389b4cc38c421d3b3c)
+        ;
+
+        
+    
+    
+            marker_8c1defa8015f5f683a0b63a8d3a8dc14.bindTooltip(
+                `<div>
+                     LPP RRI JANTHO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acdd5e0e559cd64f35fa7902e70311b6 = L.marker(
+                [5.38730278, 95.25636389],
+                {}
+            ).addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+        var popup_42fc6516e7496c3e65856db05cf25c59 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ffeb90329a30ba63272f963c69e874e9 = $(`<div id="html_ffeb90329a30ba63272f963c69e874e9" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">LPP RRI Leupung 97.3 MHz</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. BANDA ACEH - CALANG KM. 27, DESA MEUNASAH MESJID, KELURAHAN MEUNASAH MESJID, KECAMATAN LEUPUNG, ACEH BESAR, ACEH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_42fc6516e7496c3e65856db05cf25c59.setContent(html_ffeb90329a30ba63272f963c69e874e9);
+            
+        
+
+        marker_acdd5e0e559cd64f35fa7902e70311b6.bindPopup(popup_42fc6516e7496c3e65856db05cf25c59)
+        ;
+
+        
+    
+    
+            marker_acdd5e0e559cd64f35fa7902e70311b6.bindTooltip(
+                `<div>
+                     LPP RRI Leupung 97.3 MHz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e1e44da25d7ad5fd16ed261c8d6b699 = L.marker(
+                [5.52444444, 95.2925],
+                {}
+            ).addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+    
+        var popup_5756c759d39504500e5f592123d59016 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d24e6cfb3b14d7d6e413287e0435652 = $(`<div id="html_4d24e6cfb3b14d7d6e413287e0435652" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">Radio Rumoh PMI</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> Jl. Banda Aceh-Medan KM 35, Lampakuk, Kota Cot Glie, Aceh Besar, Aceh<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_5756c759d39504500e5f592123d59016.setContent(html_4d24e6cfb3b14d7d6e413287e0435652);
+            
+        
+
+        marker_0e1e44da25d7ad5fd16ed261c8d6b699.bindPopup(popup_5756c759d39504500e5f592123d59016)
+        ;
+
+        
+    
+    
+            marker_0e1e44da25d7ad5fd16ed261c8d6b699.bindTooltip(
+                `<div>
+                     Radio Rumoh PMI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_72b4222eb0115758bfeda55995fe0607.addTo(map_86c27fe09f627cc650e88f0e8711a911);
+        
+</script>
+</html>

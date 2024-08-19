@@ -1,8 +1,48 @@
-timestamp,username,file_name,file_size
-2024-08-18 17:49:44,anonymous,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 17:50:18,anonymous,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 17:55:04,anonymous,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 17:59:28,anonymous,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 17:59:32,anonymous,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 18:12:23,Zahrexxs,Rencana KP Agustus 2024.xlsx,39308
-2024-08-18 18:12:35,Zahrexxs,Rencana KP Agustus 2024.xlsx,39308
+timestamp,username,file_name,file_size,Timestamp,Username,Filename,Filesize (KB)
+2024-08-18 17:49:44,anonymous,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 17:50:18,anonymous,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 17:55:04,anonymous,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 17:59:28,anonymous,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 17:59:32,anonymous,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 18:12:23,Zahrexxs,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-18 18:12:35,Zahrexxs,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:13:41,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:13:48,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:13:52,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:00,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:00,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:04,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:28,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:37,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:14:41,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:15:14,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:15:42,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:16:03,jek,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:20:29,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:20:33,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:20:36,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:20:44,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:20:46,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:21:02,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:21:17,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+2024-08-19 09:21:39,jaki,Rencana KP Agustus 2024.xlsx,39308.0,,,,
+,,,,2024-08-19 09:50:06.234161,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:50:12.298167,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:50:25.881615,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:52:10.911306,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:52:52.998279,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:55:57.828333,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 09:56:13.050574,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:08:44.765400,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:08:46.499899,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:08:46.933282,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:08:48.902601,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:08:49.812686,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:20:39.437497,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:20:59.989529,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:21:03.203235,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:21:05.236380,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:21:37.496594,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:32:55.265087,jaki,Rencana KP Agustus 2024.xlsx,38.38671875
+,,,,2024-08-19 10:34:31.819476,jaki,Rencana KP Agustus 2024 edited.xlsx,36.74609375
+,,,,2024-08-19 10:35:59.874257,jaki,Rencana KP Agustus 2024 edited.xlsx,33.888671875

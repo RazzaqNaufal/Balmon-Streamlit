@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80f5b1fff05c277caf0729dd7bb3a128 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80f5b1fff05c277caf0729dd7bb3a128" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80f5b1fff05c277caf0729dd7bb3a128 = L.map(
+                "map_80f5b1fff05c277caf0729dd7bb3a128",
+                {
+                    center: [4.661910000000001, 96.45307120400001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad858872134b8b97cdc4b5919d3f55e5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ad858872134b8b97cdc4b5919d3f55e5.addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+            var marker_b52e9ba81eaf31547b44e6a58e311ac3 = L.marker(
+                [4.52858333, 97.93439167],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_3983c5216484ed9c1070148351d65003 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d30164111822bbfba5061900f5b4fda0 = $(`<div id="html_d30164111822bbfba5061900f5b4fda0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">STASIUN TRANSMISI TVRI LANGSA</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. LINTAS MEDAN<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_3983c5216484ed9c1070148351d65003.setContent(html_d30164111822bbfba5061900f5b4fda0);
+            
+        
+
+        marker_b52e9ba81eaf31547b44e6a58e311ac3.bindPopup(popup_3983c5216484ed9c1070148351d65003)
+        ;
+
+        
+    
+    
+            marker_b52e9ba81eaf31547b44e6a58e311ac3.bindTooltip(
+                `<div>
+                     STASIUN TRANSMISI TVRI LANGSA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf7f70b9baa7bdf6f9f1e5f5bd0aca3c = L.marker(
+                [5.50879722, 95.30248056],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_d9fb10ee539f8c78b84480bd46a6ec9a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_23f453f1969d01d5cb8422b4eb448ea0 = $(`<div id="html_23f453f1969d01d5cb8422b4eb448ea0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">STASIUN TRANSMISI TVRI ACEH</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. JEND SUDIRMAN MATA LE KEL. BANDA ACEH NAD<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_d9fb10ee539f8c78b84480bd46a6ec9a.setContent(html_23f453f1969d01d5cb8422b4eb448ea0);
+            
+        
+
+        marker_cf7f70b9baa7bdf6f9f1e5f5bd0aca3c.bindPopup(popup_d9fb10ee539f8c78b84480bd46a6ec9a)
+        ;
+
+        
+    
+    
+            marker_cf7f70b9baa7bdf6f9f1e5f5bd0aca3c.bindTooltip(
+                `<div>
+                     STASIUN TRANSMISI TVRI ACEH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f96fdf40d2abb5dfa72475104d7e6948 = L.marker(
+                [5.11782778, 97.15351944],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_b3f60397d9653daf3e0cb6f78dd4d057 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0792a34e4ff6e837a54553dcb799a018 = $(`<div id="html_0792a34e4ff6e837a54553dcb799a018" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 7</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. RAJAWALI DUSUN BUKIT RATA, DESA BUKIT RATA<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_b3f60397d9653daf3e0cb6f78dd4d057.setContent(html_0792a34e4ff6e837a54553dcb799a018);
+            
+        
+
+        marker_f96fdf40d2abb5dfa72475104d7e6948.bindPopup(popup_b3f60397d9653daf3e0cb6f78dd4d057)
+        ;
+
+        
+    
+    
+            marker_f96fdf40d2abb5dfa72475104d7e6948.bindTooltip(
+                `<div>
+                     METRO TV ACEH 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d15db866418d34128e028140b145dd7 = L.marker(
+                [5.38025278, 95.96581389],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_f82ba1c3d4605a9d597431b3e7d6af45 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2b793c632d7590933c2d1467162bf6c7 = $(`<div id="html_2b793c632d7590933c2d1467162bf6c7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 4</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. SIGLI - BLANG PASEH, DESA KAMPUNG PANTE TENGOH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_f82ba1c3d4605a9d597431b3e7d6af45.setContent(html_2b793c632d7590933c2d1467162bf6c7);
+            
+        
+
+        marker_0d15db866418d34128e028140b145dd7.bindPopup(popup_f82ba1c3d4605a9d597431b3e7d6af45)
+        ;
+
+        
+    
+    
+            marker_0d15db866418d34128e028140b145dd7.bindTooltip(
+                `<div>
+                     METRO TV ACEH 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6b86b111f8a272654c045db4f4ac6dc = L.marker(
+                [5.85231389, 95.34794444],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_999d67c51d8f755af097a9fbb444f486 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ef5f74f90856079e827779c0843a790e = $(`<div id="html_ef5f74f90856079e827779c0843a790e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 2</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> TOWER METRO TV SABANG, DESA COT MANCANG/ COT BAU<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_999d67c51d8f755af097a9fbb444f486.setContent(html_ef5f74f90856079e827779c0843a790e);
+            
+        
+
+        marker_d6b86b111f8a272654c045db4f4ac6dc.bindPopup(popup_999d67c51d8f755af097a9fbb444f486)
+        ;
+
+        
+    
+    
+            marker_d6b86b111f8a272654c045db4f4ac6dc.bindTooltip(
+                `<div>
+                     METRO TV ACEH 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c4ced346e5e3a6e10af54bedd22647d = L.marker(
+                [5.21150833, 96.72392778],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_ce7aeec415f2b3df6e935306eac2dc62 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cf95dbbee5c775c0ea5f3088e20f4c57 = $(`<div id="html_cf95dbbee5c775c0ea5f3088e20f4c57" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 4</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. AMPON MUD DUSUN UTARA, DESA COT GAPU<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_ce7aeec415f2b3df6e935306eac2dc62.setContent(html_cf95dbbee5c775c0ea5f3088e20f4c57);
+            
+        
+
+        marker_6c4ced346e5e3a6e10af54bedd22647d.bindPopup(popup_ce7aeec415f2b3df6e935306eac2dc62)
+        ;
+
+        
+    
+    
+            marker_6c4ced346e5e3a6e10af54bedd22647d.bindTooltip(
+                `<div>
+                     METRO TV ACEH 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcf8aa14b90031da699c0ec19a573211 = L.marker(
+                [3.48359722, 97.82564444],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_f40461841e3a34f83b60098b17c2ae4d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_76feab837bdf74fb1de5684a35096783 = $(`<div id="html_76feab837bdf74fb1de5684a35096783" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 10</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. KUTAMBARU, DESA SIMPANG 4<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_f40461841e3a34f83b60098b17c2ae4d.setContent(html_76feab837bdf74fb1de5684a35096783);
+            
+        
+
+        marker_dcf8aa14b90031da699c0ec19a573211.bindPopup(popup_f40461841e3a34f83b60098b17c2ae4d)
+        ;
+
+        
+    
+    
+            marker_dcf8aa14b90031da699c0ec19a573211.bindTooltip(
+                `<div>
+                     METRO TV ACEH 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eadceb6c5b66fe026ef3824ef165f40d = L.marker(
+                [5.14105556, 97.13533333],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_496056da4ee8da9bad9c1e13f7dc4cf9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3c981b8095241cc8bc9dfa68a0cb535 = $(`<div id="html_c3c981b8095241cc8bc9dfa68a0cb535" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TRANS7</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. STASIUN GAMPONG, DESA MEUNASAH MAYANG<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_496056da4ee8da9bad9c1e13f7dc4cf9.setContent(html_c3c981b8095241cc8bc9dfa68a0cb535);
+            
+        
+
+        marker_eadceb6c5b66fe026ef3824ef165f40d.bindPopup(popup_496056da4ee8da9bad9c1e13f7dc4cf9)
+        ;
+
+        
+    
+    
+            marker_eadceb6c5b66fe026ef3824ef165f40d.bindTooltip(
+                `<div>
+                     TRANS7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09604de1275c1b3b5422d0671a76c58a = L.marker(
+                [5.50911111, 95.30255556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_6043bedb7fef7bf8b11219734d2a6135 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8b2ea74bf38070e390ff1c91d9e19b19 = $(`<div id="html_8b2ea74bf38070e390ff1c91d9e19b19" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">ANTV ACEH</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. JEND. SUDIRMAN MATA IE, KEL. GUE GAJAH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_6043bedb7fef7bf8b11219734d2a6135.setContent(html_8b2ea74bf38070e390ff1c91d9e19b19);
+            
+        
+
+        marker_09604de1275c1b3b5422d0671a76c58a.bindPopup(popup_6043bedb7fef7bf8b11219734d2a6135)
+        ;
+
+        
+    
+    
+            marker_09604de1275c1b3b5422d0671a76c58a.bindTooltip(
+                `<div>
+                     ANTV ACEH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a606c208e37e45fd0a8f19cd325cf684 = L.marker(
+                [5.85338889, 95.34883333],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_536e84ebe5f9e7a45064b9949e485388 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_15a40f43443072d4fd93a85bf2a4e373 = $(`<div id="html_15a40f43443072d4fd93a85bf2a4e373" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">RCTI NETWORK</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> STASIUN TRANSMISI RCTI SABANG, COT MUNCANG KEL.COT BA'U<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_536e84ebe5f9e7a45064b9949e485388.setContent(html_15a40f43443072d4fd93a85bf2a4e373);
+            
+        
+
+        marker_a606c208e37e45fd0a8f19cd325cf684.bindPopup(popup_536e84ebe5f9e7a45064b9949e485388)
+        ;
+
+        
+    
+    
+            marker_a606c208e37e45fd0a8f19cd325cf684.bindTooltip(
+                `<div>
+                     RCTI NETWORK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fe6924cf6e3510c7acf8391a61d8e1b = L.marker(
+                [4.14738889, 96.13177778],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_c1198264270383bd570ef5281403139b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_91eb0fb6610b1a57466b9149e79140ad = $(`<div id="html_91eb0fb6610b1a57466b9149e79140ad" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TRANS7 ACEH - 5</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JALAN TENGKU DIRUNDENG NO.15, KELURAHAN UJUNG BAROH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_c1198264270383bd570ef5281403139b.setContent(html_91eb0fb6610b1a57466b9149e79140ad);
+            
+        
+
+        marker_5fe6924cf6e3510c7acf8391a61d8e1b.bindPopup(popup_c1198264270383bd570ef5281403139b)
+        ;
+
+        
+    
+    
+            marker_5fe6924cf6e3510c7acf8391a61d8e1b.bindTooltip(
+                `<div>
+                     TRANS7 ACEH - 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6df15c1d9d737f099a1696b464b61620 = L.marker(
+                [4.64711389, 96.83599444],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_ed25b958611f08b2ea3681090a1141bf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a14cebe51f9bd74e95c83461217e9fe5 = $(`<div id="html_a14cebe51f9bd74e95c83461217e9fe5" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 6</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> RADIO SLA JL. POROS BIREUEN-TAKENGON KEL. PAYA TUMPI<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_ed25b958611f08b2ea3681090a1141bf.setContent(html_a14cebe51f9bd74e95c83461217e9fe5);
+            
+        
+
+        marker_6df15c1d9d737f099a1696b464b61620.bindPopup(popup_ed25b958611f08b2ea3681090a1141bf)
+        ;
+
+        
+    
+    
+            marker_6df15c1d9d737f099a1696b464b61620.bindTooltip(
+                `<div>
+                     METRO TV ACEH 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9bdf22ba5644c7e9e9779de67629329 = L.marker(
+                [5.20963889, 97.03988889],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_1c51b23cf0f117c1faaeba6b05b88779 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fabf399cffc47a7f5a81ef02dd566271 = $(`<div id="html_fabf399cffc47a7f5a81ef02dd566271" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">RCTI NETWORK ACEH - 7 (KOTA LHOKSEUMAWE)</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. SUGAING GERONG, BLANG THUPAT BARAT<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_1c51b23cf0f117c1faaeba6b05b88779.setContent(html_fabf399cffc47a7f5a81ef02dd566271);
+            
+        
+
+        marker_b9bdf22ba5644c7e9e9779de67629329.bindPopup(popup_1c51b23cf0f117c1faaeba6b05b88779)
+        ;
+
+        
+    
+    
+            marker_b9bdf22ba5644c7e9e9779de67629329.bindTooltip(
+                `<div>
+                     RCTI NETWORK ACEH - 7 (KOTA LHOKSEUMAWE)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9dd9d2e97c5aee4c910ad5c67629bb7 = L.marker(
+                [5.20961111, 97.03990556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_c9c049a15daefad1550ff3df54c81c48 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_059330e81f6df322e29b3ecff90df2bf = $(`<div id="html_059330e81f6df322e29b3ecff90df2bf" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">MUX IVM ACEH LHOKSEUMAWE</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. SEI GERONG, KEL. BATUPHAT<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_c9c049a15daefad1550ff3df54c81c48.setContent(html_059330e81f6df322e29b3ecff90df2bf);
+            
+        
+
+        marker_e9dd9d2e97c5aee4c910ad5c67629bb7.bindPopup(popup_c9c049a15daefad1550ff3df54c81c48)
+        ;
+
+        
+    
+    
+            marker_e9dd9d2e97c5aee4c910ad5c67629bb7.bindTooltip(
+                `<div>
+                     MUX IVM ACEH LHOKSEUMAWE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b1da039a47f309b7152a66a6f0f50d5 = L.marker(
+                [5.85377222, 95.34825278],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_f8d05198d00979d09a2d5864d3db0abe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_930149e786d24918ffa702d6ba13419a = $(`<div id="html_930149e786d24918ffa702d6ba13419a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TVRI SABANG</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JALAN RAYA SABANG BAWAHAN, DESA BALOH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_f8d05198d00979d09a2d5864d3db0abe.setContent(html_930149e786d24918ffa702d6ba13419a);
+            
+        
+
+        marker_3b1da039a47f309b7152a66a6f0f50d5.bindPopup(popup_f8d05198d00979d09a2d5864d3db0abe)
+        ;
+
+        
+    
+    
+            marker_3b1da039a47f309b7152a66a6f0f50d5.bindTooltip(
+                `<div>
+                     TVRI SABANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca17d6b303a445008465c037e92a32fa = L.marker(
+                [5.37722778, 95.94876389],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_dafd31ca918ff01c4e2579192af408f4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b73a285726fe70f23e32cb3a4bc52ed6 = $(`<div id="html_b73a285726fe70f23e32cb3a4bc52ed6" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">MUX IVM SIGLI</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. GAROT NO. 7, KEL. KEUNIREE<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_dafd31ca918ff01c4e2579192af408f4.setContent(html_b73a285726fe70f23e32cb3a4bc52ed6);
+            
+        
+
+        marker_ca17d6b303a445008465c037e92a32fa.bindPopup(popup_dafd31ca918ff01c4e2579192af408f4)
+        ;
+
+        
+    
+    
+            marker_ca17d6b303a445008465c037e92a32fa.bindTooltip(
+                `<div>
+                     MUX IVM SIGLI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a46bc46b097ace09fe33d153ca750d9 = L.marker(
+                [5.20961111, 97.03990556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_e06365764794cb18c33609cfb7e18404 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fbd6b2ae96a9e109f9872e1fc90d2ba6 = $(`<div id="html_fbd6b2ae96a9e109f9872e1fc90d2ba6" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TVRI SATUAN TRANSMISI LHOKSEUMAWE</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> KOMPLEK PT. ARUN KEC MUARA SATU, JL. MEDAN - BANDA ACEH, BATUPHAT TIMUR,  KOTA LHOKSEUMAWE, ACEH KODE POS 24188<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_e06365764794cb18c33609cfb7e18404.setContent(html_fbd6b2ae96a9e109f9872e1fc90d2ba6);
+            
+        
+
+        marker_0a46bc46b097ace09fe33d153ca750d9.bindPopup(popup_e06365764794cb18c33609cfb7e18404)
+        ;
+
+        
+    
+    
+            marker_0a46bc46b097ace09fe33d153ca750d9.bindTooltip(
+                `<div>
+                     TVRI SATUAN TRANSMISI LHOKSEUMAWE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87a1b91b50904ad1a782b76a02775157 = L.marker(
+                [4.17044444, 96.13388889],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_4f35775605ffa2f5fa02bd37c6ae3ace = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_48852ba8d8ea26c3bdc31c7a6736fd15 = $(`<div id="html_48852ba8d8ea26c3bdc31c7a6736fd15" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 5</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. ALUE PEUNYARENG, STAI TEUKU DIRUNDENG, KEL. UJUNG TANOH DARAT<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_4f35775605ffa2f5fa02bd37c6ae3ace.setContent(html_48852ba8d8ea26c3bdc31c7a6736fd15);
+            
+        
+
+        marker_87a1b91b50904ad1a782b76a02775157.bindPopup(popup_4f35775605ffa2f5fa02bd37c6ae3ace)
+        ;
+
+        
+    
+    
+            marker_87a1b91b50904ad1a782b76a02775157.bindTooltip(
+                `<div>
+                     METRO TV ACEH 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_807c894597daf36d37d757592f62fa55 = L.marker(
+                [5.51043889, 95.29900556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_f4e08a2ac6e32aec99cea2e45a1989f5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f3f75a27153e302a5c032672e4afc6a4 = $(`<div id="html_f3f75a27153e302a5c032672e4afc6a4" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">MUX INDOSIAR ACEH</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. PINTU AIR NO.26, DESA GUE GAJAH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_f4e08a2ac6e32aec99cea2e45a1989f5.setContent(html_f3f75a27153e302a5c032672e4afc6a4);
+            
+        
+
+        marker_807c894597daf36d37d757592f62fa55.bindPopup(popup_f4e08a2ac6e32aec99cea2e45a1989f5)
+        ;
+
+        
+    
+    
+            marker_807c894597daf36d37d757592f62fa55.bindTooltip(
+                `<div>
+                     MUX INDOSIAR ACEH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51639755008aecaec93a522d6703be2b = L.marker(
+                [5.51472222, 95.32055556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_a17e03ff708dfb0c28baff1576e58779 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a92e184ae481b2d51f963474af036fef = $(`<div id="html_a92e184ae481b2d51f963474af036fef" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TRANS 7 MEDAN</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. JENDERAL SUDIRMAN, MATA LE, DESA GUE GAJAH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_a17e03ff708dfb0c28baff1576e58779.setContent(html_a92e184ae481b2d51f963474af036fef);
+            
+        
+
+        marker_51639755008aecaec93a522d6703be2b.bindPopup(popup_a17e03ff708dfb0c28baff1576e58779)
+        ;
+
+        
+    
+    
+            marker_51639755008aecaec93a522d6703be2b.bindTooltip(
+                `<div>
+                     TRANS 7 MEDAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2db1834af9615ca732f56a35d36eb521 = L.marker(
+                [5.20366111, 96.70595556],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_2019e0371b89999eb780c873d18b0bc5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5831ef87e9b64e947adb3332af12c222 = $(`<div id="html_5831ef87e9b64e947adb3332af12c222" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">MUX IVM ACEH BIREUEN</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> PEMUDA NO. 11, DESA GEUDONG GEUDONG<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_2019e0371b89999eb780c873d18b0bc5.setContent(html_5831ef87e9b64e947adb3332af12c222);
+            
+        
+
+        marker_2db1834af9615ca732f56a35d36eb521.bindPopup(popup_2019e0371b89999eb780c873d18b0bc5)
+        ;
+
+        
+    
+    
+            marker_2db1834af9615ca732f56a35d36eb521.bindTooltip(
+                `<div>
+                     MUX IVM ACEH BIREUEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87124c7cb1d1a231f3b10edf7a760edb = L.marker(
+                [2.47021111, 96.38527778],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_68e61d3b56e6b73102d368263894edfb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4c26daa13f3899cb968eddafa98ed7cf = $(`<div id="html_4c26daa13f3899cb968eddafa98ed7cf" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 14</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. LANGENGET, DESA SUKA JAYA<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_68e61d3b56e6b73102d368263894edfb.setContent(html_4c26daa13f3899cb968eddafa98ed7cf);
+            
+        
+
+        marker_87124c7cb1d1a231f3b10edf7a760edb.bindPopup(popup_68e61d3b56e6b73102d368263894edfb)
+        ;
+
+        
+    
+    
+            marker_87124c7cb1d1a231f3b10edf7a760edb.bindTooltip(
+                `<div>
+                     METRO TV ACEH 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11e764cae8c6f93655a470ac9900dffb = L.marker(
+                [2.30402778, 97.40704444],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_37f0424ea92fcc6648c6884c4c639f04 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7fc9cc8ca9823106e77ee130edae71e7 = $(`<div id="html_7fc9cc8ca9823106e77ee130edae71e7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">PULAU BANYAK</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. ISKANDAR MUDA, KEL. PULAU BALAI<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_37f0424ea92fcc6648c6884c4c639f04.setContent(html_7fc9cc8ca9823106e77ee130edae71e7);
+            
+        
+
+        marker_11e764cae8c6f93655a470ac9900dffb.bindPopup(popup_37f0424ea92fcc6648c6884c4c639f04)
+        ;
+
+        
+    
+    
+            marker_11e764cae8c6f93655a470ac9900dffb.bindTooltip(
+                `<div>
+                     PULAU BANYAK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76775b9b526f8fa70b3d95108150d167 = L.marker(
+                [2.38972222, 97.96477778],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_71617c030bb58719f6579c4b21b869ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_09a0c9dec6d28d2fd700613598083c84 = $(`<div id="html_09a0c9dec6d28d2fd700613598083c84" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TRANS7 ACEH -13</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JALAN KOMPLEK LAPANGAN MARIAM SIPOLI NOMOR 3, DESA LAE BUTAR<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_71617c030bb58719f6579c4b21b869ba.setContent(html_09a0c9dec6d28d2fd700613598083c84);
+            
+        
+
+        marker_76775b9b526f8fa70b3d95108150d167.bindPopup(popup_71617c030bb58719f6579c4b21b869ba)
+        ;
+
+        
+    
+    
+            marker_76775b9b526f8fa70b3d95108150d167.bindTooltip(
+                `<div>
+                     TRANS7 ACEH -13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4549fe7b4ce16206cfc2c258f7fcc54 = L.marker(
+                [5.20366667, 96.70594444],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_773a35b95f2db61164a9d5fd63ebb13b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_960620ba620222f168fa7acfcb92f88a = $(`<div id="html_960620ba620222f168fa7acfcb92f88a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">TRANS7 ACEH - 4</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JALAN PEMUDA NO.11 LANTAI 2, KELURAHAN GEUDONG-GEUDONG<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_773a35b95f2db61164a9d5fd63ebb13b.setContent(html_960620ba620222f168fa7acfcb92f88a);
+            
+        
+
+        marker_d4549fe7b4ce16206cfc2c258f7fcc54.bindPopup(popup_773a35b95f2db61164a9d5fd63ebb13b)
+        ;
+
+        
+    
+    
+            marker_d4549fe7b4ce16206cfc2c258f7fcc54.bindTooltip(
+                `<div>
+                     TRANS7 ACEH - 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ff062c21d94951abe585ca365a5eade = L.marker(
+                [3.99579722, 97.32876389],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_65768c8f6cdd25e74dff4f16e42e4967 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8e9d9b6cb4703854389d6caca4f66dab = $(`<div id="html_8e9d9b6cb4703854389d6caca4f66dab" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">MUX DIGITAL TVRI BLANGKEJEREN</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. KOLONEL MUHAMMAD DIN  DS. KAMPUNG JAWA<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_65768c8f6cdd25e74dff4f16e42e4967.setContent(html_8e9d9b6cb4703854389d6caca4f66dab);
+            
+        
+
+        marker_6ff062c21d94951abe585ca365a5eade.bindPopup(popup_65768c8f6cdd25e74dff4f16e42e4967)
+        ;
+
+        
+    
+    
+            marker_6ff062c21d94951abe585ca365a5eade.bindTooltip(
+                `<div>
+                     MUX DIGITAL TVRI BLANGKEJEREN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2521fcc3c7333bf83ddf78c88f9e7fd = L.marker(
+                [2.36404167, 97.93346944],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_4b2aacaf55a510c01cd537d30e3b1b4d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0debc3b22b5fd6045e6039faa58a432a = $(`<div id="html_0debc3b22b5fd6045e6039faa58a432a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 13</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. SINGKIL - RIMO, DESA GN. LAGAN<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_4b2aacaf55a510c01cd537d30e3b1b4d.setContent(html_0debc3b22b5fd6045e6039faa58a432a);
+            
+        
+
+        marker_b2521fcc3c7333bf83ddf78c88f9e7fd.bindPopup(popup_4b2aacaf55a510c01cd537d30e3b1b4d)
+        ;
+
+        
+    
+    
+            marker_b2521fcc3c7333bf83ddf78c88f9e7fd.bindTooltip(
+                `<div>
+                     METRO TV ACEH 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_867c10bb4f89412376965dd7f3551a93 = L.marker(
+                [5.50944167, 95.29875],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_71797c249d46d0efeda83c00e3735218 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_146cf1de6684040f90854987c7206a56 = $(`<div id="html_146cf1de6684040f90854987c7206a56" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">RCTI NETWORK</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. PINTU AIR, DESA. GUE GAJAH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_71797c249d46d0efeda83c00e3735218.setContent(html_146cf1de6684040f90854987c7206a56);
+            
+        
+
+        marker_867c10bb4f89412376965dd7f3551a93.bindPopup(popup_71797c249d46d0efeda83c00e3735218)
+        ;
+
+        
+    
+    
+            marker_867c10bb4f89412376965dd7f3551a93.bindTooltip(
+                `<div>
+                     RCTI NETWORK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0902a03ac0fe4fd9f1c0a5999c4aca02 = L.marker(
+                [5.510325, 95.29891111],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_f03c572b471eb34b1e8d5fedbad5cdb0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d444d0749500622e9c51848feec6f7be = $(`<div id="html_d444d0749500622e9c51848feec6f7be" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">METRO TV ACEH 1</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. PINTU AIR NO. 07, DESA GUE GAJAH<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_f03c572b471eb34b1e8d5fedbad5cdb0.setContent(html_d444d0749500622e9c51848feec6f7be);
+            
+        
+
+        marker_0902a03ac0fe4fd9f1c0a5999c4aca02.bindPopup(popup_f03c572b471eb34b1e8d5fedbad5cdb0)
+        ;
+
+        
+    
+    
+            marker_0902a03ac0fe4fd9f1c0a5999c4aca02.bindTooltip(
+                `<div>
+                     METRO TV ACEH 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0b1d72898ceb814274f8e001316cfe3 = L.marker(
+                [2.47, 96.38485833],
+                {}
+            ).addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+    
+        var popup_96b25b6c0eaca7f226909ebef9a12369 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d81d317e1ae26a07e816f26ef4125f2c = $(`<div id="html_d81d317e1ae26a07e816f26ef4125f2c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.4;">             <h4 style="margin: 0; font-size: 16px;">STASIUN TRANSMISI TVRI SINABANG</h4>             <p style="margin: 5px 0 0; font-size: 14px;">                 <strong>Alamat:</strong> JL. TGK DIUJUNG-200M (JL. LANGEGET), KEL. SUKA JAYA<br>                 <strong>Provinsi:</strong> ACEH             </p>         </div>         </div>`)[0];
+                popup_96b25b6c0eaca7f226909ebef9a12369.setContent(html_d81d317e1ae26a07e816f26ef4125f2c);
+            
+        
+
+        marker_a0b1d72898ceb814274f8e001316cfe3.bindPopup(popup_96b25b6c0eaca7f226909ebef9a12369)
+        ;
+
+        
+    
+    
+            marker_a0b1d72898ceb814274f8e001316cfe3.bindTooltip(
+                `<div>
+                     STASIUN TRANSMISI TVRI SINABANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_ad858872134b8b97cdc4b5919d3f55e5.addTo(map_80f5b1fff05c277caf0729dd7bb3a128);
+        
+</script>
+</html>
